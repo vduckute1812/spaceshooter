@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{70a916d4-1a8a-44b7-b2c8-2a8a773cd095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{a5fe93b1-4899-43b6-a86f-7a84356eb699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Images">
+      <UniqueIdentifier>{3b764dad-3772-4cf7-a5d7-4f988ef113c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Sounds">
+      <UniqueIdentifier>{43903962-b13f-4bd9-97ba-5515869084a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\UIButton">
+      <UniqueIdentifier>{79173d42-ac48-4c0d-85a5-8aa6b5ca6624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Images\Blue">
+      <UniqueIdentifier>{b7b1008a-bb2d-49ef-9843-f6f319d0071b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Images\Red">
+      <UniqueIdentifier>{e1ca0308-e2b2-4a76-ab1c-76f9cf0fe336}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShooter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HideBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EddyBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Fonts\font.fnt">
+      <Filter>Resources\Fonts</Filter>
+    </None>
+    <None Include="..\Resources\Fonts\fontPolygon.fnt">
+      <Filter>Resources\Fonts</Filter>
+    </None>
+    <None Include="GetResouces.py" />
+    <None Include="Setting.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\Fonts\font.png">
+      <Filter>Resources\Fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\Fonts\fontPolygon.png">
+      <Filter>Resources\Fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\aestroid_brown.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\aestroid_dark.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\aestroid_gay_2.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\aestroid_gray.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\background.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\bullet0.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\galaxy.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\rock.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\spaceshooter.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_0.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_1.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_2.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_3.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_4.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_5.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_6.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_7.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_8.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_9.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_10.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_11.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_12.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_13.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_14.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_15.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\1_16.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\2.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\3.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\4.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\5.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\6.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\7.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\8.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Blue\bullet.png">
+      <Filter>Resources\Images\Blue</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_0.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_1.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_2.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_3.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_4.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_5.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_6.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_7.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_8.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_9.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_10.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_11.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_12.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_13.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_14.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_15.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\1_16.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\Images\Red\bullet_red.png">
+      <Filter>Resources\Images\Red</Filter>
+    </Image>
+    <Image Include="..\Resources\UIButton\BackButtonNormal.png">
+      <Filter>Resources\UIButton</Filter>
+    </Image>
+    <Image Include="..\Resources\UIButton\BackButtonPressed.png">
+      <Filter>Resources\UIButton</Filter>
+    </Image>
+    <Image Include="..\Resources\UIButton\ButtonNormal.png">
+      <Filter>Resources\UIButton</Filter>
+    </Image>
+    <Image Include="..\Resources\UIButton\ButtonPressed.png">
+      <Filter>Resources\UIButton</Filter>
+    </Image>
+    <Image Include="..\Resources\UIButton\PlayButtonNormal.png">
+      <Filter>Resources\UIButton</Filter>
+    </Image>
+    <Image Include="..\Resources\UIButton\PlayButtonPressed.png">
+      <Filter>Resources\UIButton</Filter>
+    </Image>
+    <Image Include="..\Resources\UIButton\ReplayButtonNormal.png">
+      <Filter>Resources\UIButton</Filter>
+    </Image>
+    <Image Include="..\Resources\UIButton\ReplayButtonPressed.png">
+      <Filter>Resources\UIButton</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\Sounds\explosion-1.mp3">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+    <Media Include="..\Resources\Sounds\explosion-3.mp3">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+    <Media Include="..\Resources\Sounds\gameplay.mp3">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+    <Media Include="..\Resources\Sounds\gameplay-loop.mp3">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+    <Media Include="..\Resources\Sounds\lasre-shot-2-high.mp3">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+    <Media Include="..\Resources\Sounds\shot.mp3">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+    <Media Include="..\Resources\Sounds\shot-noise.mp3">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShooter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HideBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EddyBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

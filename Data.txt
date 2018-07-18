@@ -1,0 +1,144 @@
+#Images 53
+- ID: 1
+- PATH:..\Resources\Images\aestroid_brown.png
+- ID: 2
+- PATH:..\Resources\Images\aestroid_dark.png
+- ID: 3
+- PATH:..\Resources\Images\aestroid_gay_2.png
+- ID: 4
+- PATH:..\Resources\Images\aestroid_gray.png
+- ID: 5
+- PATH:..\Resources\Images\background.png
+- ID: 6
+- PATH:..\Resources\Images\Blue\1.png
+- ID: 7
+- PATH:..\Resources\Images\Blue\1_0.png
+- ID: 8
+- PATH:..\Resources\Images\Blue\1_1.png
+- ID: 9
+- PATH:..\Resources\Images\Blue\1_10.png
+- ID: 10
+- PATH:..\Resources\Images\Blue\1_11.png
+- ID: 11
+- PATH:..\Resources\Images\Blue\1_12.png
+- ID: 12
+- PATH:..\Resources\Images\Blue\1_13.png
+- ID: 13
+- PATH:..\Resources\Images\Blue\1_14.png
+- ID: 14
+- PATH:..\Resources\Images\Blue\1_15.png
+- ID: 15
+- PATH:..\Resources\Images\Blue\1_16.png
+- ID: 16
+- PATH:..\Resources\Images\Blue\1_2.png
+- ID: 17
+- PATH:..\Resources\Images\Blue\1_3.png
+- ID: 18
+- PATH:..\Resources\Images\Blue\1_4.png
+- ID: 19
+- PATH:..\Resources\Images\Blue\1_5.png
+- ID: 20
+- PATH:..\Resources\Images\Blue\1_6.png
+- ID: 21
+- PATH:..\Resources\Images\Blue\1_7.png
+- ID: 22
+- PATH:..\Resources\Images\Blue\1_8.png
+- ID: 23
+- PATH:..\Resources\Images\Blue\1_9.png
+- ID: 24
+- PATH:..\Resources\Images\Blue\2.png
+- ID: 25
+- PATH:..\Resources\Images\Blue\3.png
+- ID: 26
+- PATH:..\Resources\Images\Blue\4.png
+- ID: 27
+- PATH:..\Resources\Images\Blue\5.png
+- ID: 28
+- PATH:..\Resources\Images\Blue\6.png
+- ID: 29
+- PATH:..\Resources\Images\Blue\7.png
+- ID: 30
+- PATH:..\Resources\Images\Blue\8.png
+- ID: 31
+- PATH:..\Resources\Images\Blue\bullet.png
+- ID: 32
+- PATH:..\Resources\Images\bullet0.png
+- ID: 33
+- PATH:..\Resources\Images\galaxy.png
+- ID: 34
+- PATH:..\Resources\Images\Red\1_0.png
+- ID: 35
+- PATH:..\Resources\Images\Red\1_1.png
+- ID: 36
+- PATH:..\Resources\Images\Red\1_10.png
+- ID: 37
+- PATH:..\Resources\Images\Red\1_11.png
+- ID: 38
+- PATH:..\Resources\Images\Red\1_12.png
+- ID: 39
+- PATH:..\Resources\Images\Red\1_13.png
+- ID: 40
+- PATH:..\Resources\Images\Red\1_14.png
+- ID: 41
+- PATH:..\Resources\Images\Red\1_15.png
+- ID: 42
+- PATH:..\Resources\Images\Red\1_16.png
+- ID: 43
+- PATH:..\Resources\Images\Red\1_2.png
+- ID: 44
+- PATH:..\Resources\Images\Red\1_3.png
+- ID: 45
+- PATH:..\Resources\Images\Red\1_4.png
+- ID: 46
+- PATH:..\Resources\Images\Red\1_5.png
+- ID: 47
+- PATH:..\Resources\Images\Red\1_6.png
+- ID: 48
+- PATH:..\Resources\Images\Red\1_7.png
+- ID: 49
+- PATH:..\Resources\Images\Red\1_8.png
+- ID: 50
+- PATH:..\Resources\Images\Red\1_9.png
+- ID: 51
+- PATH:..\Resources\Images\Red\bullet_red.png
+- ID: 52
+- PATH:..\Resources\Images\rock.png
+- ID: 53
+- PATH:..\Resources\Images\spaceshooter.png
+#Sounds 7
+- ID: 1
+- PATH:..\Resources\Sounds\explosion-1.mp3
+- ID: 2
+- PATH:..\Resources\Sounds\explosion-3.mp3
+- ID: 3
+- PATH:..\Resources\Sounds\gameplay-loop.mp3
+- ID: 4
+- PATH:..\Resources\Sounds\gameplay.mp3
+- ID: 5
+- PATH:..\Resources\Sounds\lasre-shot-2-high.mp3
+- ID: 6
+- PATH:..\Resources\Sounds\shot-noise.mp3
+- ID: 7
+- PATH:..\Resources\Sounds\shot.mp3
+#Fonts 2
+- ID: 1
+- PATH:..\Resources\Fonts\font.fnt
+- ID: 2
+- PATH:..\Resources\Fonts\fontPolygon.fnt
+#UIButton 8
+- ID: 1
+- PATH:..\Resources\UIButton\BackButtonNormal.png
+- ID: 2
+- PATH:..\Resources\UIButton\BackButtonPressed.png
+- ID: 3
+- PATH:..\Resources\UIButton\ButtonNormal.png
+- ID: 4
+- PATH:..\Resources\UIButton\ButtonPressed.png
+- ID: 5
+- PATH:..\Resources\UIButton\PlayButtonNormal.png
+- ID: 6
+- PATH:..\Resources\UIButton\PlayButtonPressed.png
+- ID: 7
+- PATH:..\Resources\UIButton\ReplayButtonNormal.png
+- ID: 8
+- PATH:..\Resources\UIButton\ReplayButtonPressed.png

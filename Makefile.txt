@@ -1,0 +1,58 @@
+Bullet.o: Bullet.cpp Bullet.h 
+	g++ -c Bullet.cpp
+EddyBullet.o: EddyBullet.cpp EddyBullet.h 
+	g++ -c EddyBullet.cpp
+GameOverState.o: GameOverState.cpp GameOverState.h 
+	g++ -c GameOverState.cpp
+GamePlayState.o: GamePlayState.cpp GamePlayState.h 
+	g++ -c GamePlayState.cpp
+HideBullet.o: HideBullet.cpp HideBullet.h 
+	g++ -c HideBullet.cpp
+LogoState.o: LogoState.cpp LogoState.h 
+	g++ -c LogoState.cpp
+Main.o: Main.cpp 
+	g++ -c Main.cpp
+MainMenuState.o: MainMenuState.cpp MainMenuState.h 
+	g++ -c MainMenuState.cpp
+NormalBullet.o: NormalBullet.cpp NormalBullet.h 
+	g++ -c NormalBullet.cpp
+Object.o: Object.cpp Object.h 
+	g++ -c Object.cpp
+ResourceManager.o: ResourceManager.cpp ResourceManager.h 
+	g++ -c ResourceManager.cpp
+Rock.o: Rock.cpp Rock.h 
+	g++ -c Rock.cpp
+SpaceShooter.o: SpaceShooter.cpp SpaceShooter.h 
+	g++ -c SpaceShooter.cpp
+State.o: State.cpp State.h 
+	g++ -c State.cpp
+StateMachine.o: StateMachine.cpp StateMachine.h 
+	g++ -c StateMachine.cpp
+Animation.o: Animation.cpp Animation.h 
+	g++ -c Animation.cpp
+Device.o: Device.cpp Device.h 
+	g++ -c Device.cpp
+Font.o: Font.cpp Font.h 
+	g++ -c Font.cpp
+GameTime.o: GameTime.cpp GameTime.h 
+	g++ -c GameTime.cpp
+Geometry.o: Geometry.cpp Geometry.h 
+	g++ -c Geometry.cpp
+Graphics.o: Graphics.cpp Graphics.h 
+	g++ -c Graphics.cpp
+Image.o: Image.cpp Image.h 
+	g++ -c Image.cpp
+InputManager.o: InputManager.cpp InputManager.h 
+	g++ -c InputManager.cpp
+Logger.o: Logger.cpp Logger.h 
+	g++ -c Logger.cpp
+Rect.o: Rect.cpp Rect.h 
+	g++ -c Rect.cpp
+Shader.o: Shader.cpp Shader.h 
+	g++ -c Shader.cpp
+UIButton.o: UIButton.cpp UIButton.h 
+	g++ -c UIButton.cpp
+build: Bullet.o EddyBullet.o GameOverState.o GamePlayState.o HideBullet.o LogoState.o Main.o MainMenuState.o NormalBullet.o Object.o ResourceManager.o Rock.o SpaceShooter.o State.o StateMachine.o Animation.o Device.o Font.o GameTime.o Geometry.o Graphics.o Image.o InputManager.o Logger.o Rect.o Shader.o UIButton.o 
+	g++ Bullet.o EddyBullet.o GameOverState.o GamePlayState.o HideBullet.o LogoState.o Main.o MainMenuState.o NormalBullet.o Object.o ResourceManager.o Rock.o SpaceShooter.o State.o StateMachine.o Animation.o Device.o Font.o GameTime.o Geometry.o Graphics.o Image.o InputManager.o Logger.o Rect.o Shader.o UIButton.o -o output
+run: 
+	./output

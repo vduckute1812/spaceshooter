@@ -1,0 +1,132 @@
+﻿Build started 7/9/2018 11:35:30 AM.
+     1>Project "C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Demo\Demo.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Library\OpenGLES\Include /I..\GameEngine /I..\Library\VLD\Lib /ZI /nologo /W3 /WX- /Od /Oy- /D _NO_CRT_SECURE_WARNINGS /D WIN32 /D OPENGLES2 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bullet.cpp EddyBullet.cpp GameOverState.cpp GamePlayState.cpp HideBullet.cpp LogoState.cpp Main.cpp MainMenuState.cpp NormalBullet.cpp Object.cpp ResourceManager.cpp Rock.cpp SpaceShooter.cpp State.cpp StateMachine.cpp
+         StateMachine.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         State.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         SpaceShooter.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\spaceshooter.cpp(10): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+         Rock.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\rock.cpp(6): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\rock.cpp(7): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+         ResourceManager.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(76): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(82): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(85): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(86): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(92): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(95): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(96): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(101): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(104): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(106): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(110): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(113): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(114): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(115): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(119): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(122): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(123): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(128): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(130): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(133): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(134): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(137): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(140): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(143): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(144): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\resourcemanager.cpp(147): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+         Object.cpp
+         NormalBullet.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         MainMenuState.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         Main.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         LogoState.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         HideBullet.cpp
+         GamePlayState.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\gameplaystate.cpp(64): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\gameplaystate.cpp(71): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\gameplaystate.cpp(81): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\gameplaystate.cpp(85): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\gameplaystate.cpp(99): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\gameplaystate.cpp(127): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\gameplaystate.cpp(149): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\gameplaystate.cpp(234): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         GameOverState.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         EddyBullet.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         Bullet.cpp
+     1>c:\users\duc.nguyenvan5\documents\visual studio 2013\projects\cppdemogameengine\demogame\demo\valuegame.h(61): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\Demo.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Library\OpenGLES\Lib /LIBPATH:..\Library\LibPNG\Lib /LIBPATH:..\Library\VLD\Lib libGLESv2.lib libEGL.lib libPNG.lib libZ.lib vld.lib vldmt.lib vldmtdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCD.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\Bin\Demo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\Demo.lib" /MACHINE:X86 /SAFESEH:NO Debug\Bullet.obj
+         Debug\EddyBullet.obj
+         Debug\GameOverState.obj
+         Debug\GamePlayState.obj
+         Debug\HideBullet.obj
+         Debug\LogoState.obj
+         Debug\Main.obj
+         Debug\MainMenuState.obj
+         Debug\NormalBullet.obj
+         Debug\Object.obj
+         Debug\ResourceManager.obj
+         Debug\Rock.obj
+         Debug\SpaceShooter.obj
+         Debug\State.obj
+         Debug\StateMachine.obj
+         "C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Debug\GameEngine.lib"
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libPNG.lib(png.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(png.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngerror.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(pngerror.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngget.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(pngget.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngmem.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(pngmem.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngread.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(pngread.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngrio.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(pngrio.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngrtran.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(pngrtran.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngrutil.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(pngrutil.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngset.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(pngset.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngtrans.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libPNG.lib(pngtrans.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\libpng.pdb'; linking object as if no debug info
+     1>libZ.lib(adler32.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'libZ.lib(adler32.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\zlib.pdb'; linking object as if no debug info
+     1>libZ.lib(crc32.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'libZ.lib(crc32.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\zlib.pdb'; linking object as if no debug info
+     1>libZ.lib(inflate.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'libZ.lib(inflate.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\zlib.pdb'; linking object as if no debug info
+     1>libZ.lib(inftrees.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'libZ.lib(inftrees.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\zlib.pdb'; linking object as if no debug info
+     1>libZ.lib(inffast.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'libZ.lib(inffast.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\zlib.pdb'; linking object as if no debug info
+     1>libZ.lib(zutil.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'libZ.lib(zutil.obj)' or at 'C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Bin\zlib.pdb'; linking object as if no debug info
+         Demo.vcxproj -> C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Demo\..\Bin\Demo.exe
+     1>Done Building Project "C:\Users\duc.nguyenvan5\Documents\Visual Studio 2013\Projects\CPPDemoGameEngine\DemoGame\Demo\Demo.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.68
